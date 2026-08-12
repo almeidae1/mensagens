@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#FF6B6B">
+    <title>💌 Mensagens da Mamãe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>💌 Mensagens</h1>
+            <div id="categoria-sugerida" class="badge">✨ Sugerido</div>
+        </header>
+
+        <main>
+            <div id="categoria-info">
+                <span id="categoria-emoji">☀️</span>
+                <h2 id="categoria-nome">Bom Dia</h2>
+            </div>
+
+            <div id="imagem-container" class="card">
+                <img id="imagem-atual" src="" alt="Mensagem especial">
+                <div id="loading" class="hidden">🔄 Carregando...</div>
+            </div>
+
+            <div id="acoes">
+                <button id="btn-compartilhar" class="btn-primary">
+                    📤 COMPARTILHAR
+                </button>
+                
+                <button id="btn-proxima" class="btn-secondary">
+                    🔄 OUTRA MENSAGEM
+                </button>
+            </div>
+
+            <div id="status">
+                <span id="contador">📊 0 de 0</span>
+                <span id="mensagem-status">✨ Nova mensagem!</span>
+            </div>
+
+            <div id="categorias">
+                <h3>📂 Categorias</h3>
+                <div id="lista-categorias">
+                    <!-- Gerado pelo JavaScript -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>❤️ Feito com carinho</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
